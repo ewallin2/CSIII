@@ -13,7 +13,7 @@ with open('Homework3/Bestseller - Sheet1.csv', 'r') as file:
     max_sales_row = csv_reader[max_sales_index]
 
 with open('Homework3/bestseller_info.csv', 'w', newline='') as file:
-  file.write_row(max_sales_row)
+  file.writerow(max_sales_row)
 
 
       
