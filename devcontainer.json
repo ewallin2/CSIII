@@ -1,0 +1,8 @@
+{
+  "name": "My Codespace",
+  "image": "mcr.microsoft.com/devcontainers/base:latest",
+  "extensions": [
+    "ms-python.python",
+    "esbenp.prettier-vscode"
+  ]
+}
